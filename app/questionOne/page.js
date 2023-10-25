@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function QuestionOne() {
   return (
-    <main className='flex min-h-screen flex-col space-y-4 items-center p-24 w-1/2'>
+    <main className='flex min-h-screen flex-col space-y-4 items-center p-24 w-1/2 mx-auto'>
       <h1 className='text-2xl'>Question One</h1>
       <h2 className='text-xl'>
         Prompt: Describe how you solved a challenge that one of your previous
