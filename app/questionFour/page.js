@@ -8,30 +8,30 @@ function QuestionFour() {
         Prompt: A customer has a project on Vercel and they want to redirect the
         /blog path to another website. Please write a reply to the customer.
         Separately, list any relevant documentation you found and any feedback
-        or information you'd like to share about your decision making process.
+        or information you&apos;d like to share about your decision making process.
       </h2>
       <p>Hey there valued customer!</p>
-      <p>My name is Drew, and I'm with Next.js Customer Success.</p>
+      <p>My name is Drew, and I&apos;m with Next.js Customer Success.</p>
       <p>
-        I understand you'd like to redirect the '/blog' path on your website to
+        I understand you&apos;d like to redirect the &apos;/blog&apos; path on your website to
         your Daria fandom home page found at:
-        'https://daria.fandom.com/wiki/Main_Page'. I would love to help!
+        &apos;https://daria.fandom.com/wiki/Main_Page&apos;. I would love to help!
       </p>
       <p>
         Thankfully, Next.js makes redirecting to an external page relatively
-        straightforward. Below, I'll provide a basic example with an
+        straightforward. Below, I&apos;ll provide a basic example with an
         explanation, as well as providing documentation for you to look deeper
         into the topic, should you need to further customize the redirect.
       </p>
       <p>
-        In short, you'll want to add an async 'redirects()' function to your
-        'module.exports' in the next.config.js. For basic redirecting, you'll
+        In short, you&apos;ll want to add an async &apos;redirects()&apos; function to your
+        &apos;module.exports&apos; in the next.config.js. For basic redirecting, you&apos;ll
         want to add the source, destination, and permanent properties. The
-        source is the incoming request's path pattern (or the path you want to
-        redirect users away from). The destination is the path you're routing to
+        source is the incoming request&apos;s path pattern (or the path you want to
+        redirect users away from). The destination is the path you&apos;re routing to
         (or where you want to send the user). Permanent determines whether or
-        not that redirect will be cached (use 'true' to cache the redirect,
-        'false' to not cache the redirect).
+        not that redirect will be cached (use &apos;true&apos; to cache the redirect,
+          &apos;false&apos; to not cache the redirect).
       </p>
       <p>
         Here is the basic example from our documentation:
@@ -40,12 +40,12 @@ function QuestionFour() {
       <p>
         In the above link, you can also find more in-depth information about
         redirects should you need to customize them further. Of course, should
-        you have additional questions I'm happy to help.
+        you have additional questions I&apos;m happy to help.
       </p>
       <p>
         P.S. If you are interested in masking the destination path you may
         choose to look into using a rewrite, which follows similar
-        implementation as a redirect. If you're curious about that, here is the
+        implementation as a redirect. If you&apos;re curious about that, here is the
         documentation:
         https://nextjs.org/docs/pages/api-reference/next-config-js/rewrites
       </p>
@@ -65,14 +65,14 @@ function QuestionFour() {
         primarily be a troubleshooting resource, and secondarily an educational
         resource. I also find that if the customer has to interact with the
         documentation (even if that is just to look at the examples), that can
-        often be enough to expose them to what they're looking for. They may
+        often be enough to expose them to what they&apos;re looking for. They may
         also come across a better solution.
       </p>
       <p>
         When I was initally searching Google for redirecting in Next.js, I came
         across rewrites and thought that may be a good thing for the customer to
         be aware of. So I presented that in a way that simplifies it and might
-        peak their curiousity, but doesn't inflate/dilute my response in a
+        peak their curiousity, but doesn&apos;t inflate/dilute my response in a
         meaningless way.
       </p>
       <p>
