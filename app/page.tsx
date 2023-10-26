@@ -8,7 +8,8 @@ export default function Home() {
       <Link href='/questionTwo'>Question Two</Link>
       <Link href='/questionThree'>Question Three</Link>
       <Link href='/questionFour'>Question Four</Link>
-
+      <Link href='/questionFive'>Question Five</Link>
+      <Link href='/questionSix'>Question Six</Link>
     </main>
   )
 }
