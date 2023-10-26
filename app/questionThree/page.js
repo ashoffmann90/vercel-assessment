@@ -8,8 +8,7 @@ function QuestionThree() {
         Prompt: When would you choose to use Edge Functions, Serverless
         Functions, or Edge Middleware with Vercel?
       </h2>
-      <p>(Will come back to this question if there is time)</p>
-      <p></p>
+      <p>Was unable to make it back to this question in time</p>
 
       <Link href='/'>Assessment Home</Link>
       <Link href='/questionFour'>Question Four</Link>
