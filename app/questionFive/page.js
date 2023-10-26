@@ -13,6 +13,7 @@ function QuestionFive() {
       <p>I appreciate your willingnesss to continue troubleshooting this with me!</p>
 
       <Link href='/'>Assessment Home</Link>
+      <Link href='/questionSix'>Question Six</Link>
     </main>
   )
 }
